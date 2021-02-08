@@ -1,0 +1,14 @@
+{
+  "name": "safe-erc20-opt",
+  "version": "0.0.0",
+  "private": true,
+  "license": "CC0-1.0",
+  "scripts": {
+    "build": "node build/index.js",
+    "fmt": "prettier -w 'build/**/*.js'"
+  },
+  "devDependencies": {
+    "prettier": "=2.2.1",
+    "solc": "=0.7.6"
+  }
+}
